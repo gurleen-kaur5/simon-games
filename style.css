@@ -1,0 +1,39 @@
+*{
+    text-align: center;
+}
+.btn{
+    
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 1rem;
+    margin-bottom: 2rem;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.red{
+    border-top-left-radius: 100%;
+    background-color: red;
+}
+.yellow{
+    border-bottom-left-radius: 100%;
+    background-color: yellow;
+}
+.blue{
+    border-bottom-right-radius: 100%;
+    background-color: blue;
+}
+.green{
+    border-top-right-radius: 100%;
+    background-color: rgb(54, 203, 54);
+}
+.flash{
+    background-color: white;
+}
+.userFlash{
+    background-color: black;
+}
